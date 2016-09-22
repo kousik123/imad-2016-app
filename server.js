@@ -14,12 +14,12 @@ app.get('/article-one',function(req,res) {
 });
 
 app.get('/article-two',function(req,res) {
-    res.send('atricle2 will send to our server here');
+    res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
 });
 
 
 app.get('/article-three',function(req,res) {
-    res.send('atricle3 will send to our server here');
+    res.sendFile(path.join(__dirname, 'ui', 'article3.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
