@@ -5,6 +5,8 @@ body {
 
 .center {
     text-align: center;
+    float:left;
+    max-width:200px;
 }
 
 .text-big {
@@ -19,6 +21,7 @@ body {
     height: 200px;
     padding-right:550px;
     padding-top:400px;
+    flo
 }
 
 .container{
