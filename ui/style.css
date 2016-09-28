@@ -50,5 +50,6 @@ body {
 .centertext{
     
     float:right;
+    text-align:center;
 }
 
